@@ -58,3 +58,4 @@ So, you should be able to go here in Chrome:
 http://localhost:8000
 
 Now, when you edit and save index.html, or the css files, etc, chrome should automatically refresh. Purty cewl.
+# kan_website
