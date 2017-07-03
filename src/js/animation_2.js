@@ -1,0 +1,18 @@
+// The namespace for this application
+// ()
+var sketch2 = function(p) {
+
+  p.setup = function() {
+    var myCanvas2 = p.createCanvas(200, 400);
+    myCanvas2.parent('animation-2');
+  }
+
+  p.draw = function() {
+     p.stroke(p.map(p.mouseX, 0, p.windowWidth, 0, 255), 100, 255);
+     p.fill(176, 176, 176);
+     p.rect(p.map(p.mouseX, 0, 200, 0, 200), p.map(p.mouseY, 0, 400, 0, 400), 50, 50);
+ 
+  }
+}
+
+var myp5 = new p5(sketch2);
