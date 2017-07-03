@@ -1,15 +1,15 @@
 body {
     font-family: sans-serif;
     line-height: 1.4em;
-    background: #FFF;
+    background: #C8C8C8;
     color: #444;
 }
 
-h1 { font-size: 2em; margin: .67em 0 }
-h2 { font-size: 1.5em; margin: .75em 0 }
-h3 { font-size: 1.17em; margin: .83em 0 }
-h5 { font-size: .83em; margin: 1.5em 0 }
-h6 { font-size: .75em; margin: 1.67em 0 }
+h1 { font-size: 3em; margin: .67em 0; font-family: 'Creepster'; color: #3E82FF;}
+h2 { font-size: 1.5em; margin: .5em 0; font-family: 'Montserrat', sans-serif; font-weight: 700; color: #3E82FF}
+h3 { font-size: 1.17em; margin: .4em 0; color: #3E82FF}
+h5 { font-size: .83em; margin: .4em 0 }
+h6 { font-size: .75em; margin: .4em 0 }
 h1, h2, h3, h4,
 h5, h6 {
   font-weight: bolder
@@ -18,9 +18,16 @@ h5, h6 {
 p {
   line-height: 1.4em;
   margin-bottom: 1em;
+  color: #757575;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
-  color: #00AAEE;
+  color: #3E82FF;
   text-decoration: none;
+}
+
+a:hover {
+	color: transparent;
+	text-shadow: 0 0 10px #3E82FF;
 }
