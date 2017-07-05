@@ -8,7 +8,8 @@ var sketch2 = function(p) {
   }
 
   p.draw = function() {
-     p.stroke(p.map(p.mouseX, 0, p.windowWidth, 0, 255), 100, 255);
+     p.stroke(62, 130, 255);
+     p.strokeWeight(2);
      p.fill(176, 176, 176);
      p.rect(p.map(p.mouseX, 0, 200, 0, 200), p.map(p.mouseY, 0, 400, 0, 400), 50, 50);
  
