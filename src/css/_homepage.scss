@@ -65,39 +65,66 @@
 /*-----second section------*/
 
 
-#my-photo,
+.witchcraft,
+.things-to-see,
 #animation-2 {
-  margin: 30px;
-}
-
-#my-photo {
-  margin-top: 40px;
-  height:200px;
-  width: 200px;
-  background: url("https://s3-us-west-2.amazonaws.com/krista-anne/krista_anne_headshot_blue.jpg") no-repeat center center;
-  background-size: cover;
+  margin: 77px 30px 30px 30px; 
 }
 
 #animation-2 {
   height: 400px;
   width: 200px;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 
-#my-bio {
-  /*padding: 10px 20px 20px 10px;*/
-  width: 400px;
-  height: 150px;
-}
 
-#animation-3 {
-  height: 200px;
-  width: 200px;
+.witchcraft {
+  max-width: 300px;
+  max-height: 300px;
+  align-self: flex-end;
 }
 
 .byline {
   font-style: italic;
 }
+
+.things-to-see {
+  max-height: 250px;
+  align-self: flex-end;
+}
+
+#animation-3 {
+  height: 200px;
+  width: 200px;
+  align-self: flex-end;
+}
+
+/*------third section-------*/
+
+#my-photo,
+#my-bio {
+  margin: 100px 30px 30px 30px;
+}
+
+#my-photo {
+  /*margin-top: 40px;*/
+  height:250px;
+  width: 250px;
+  background: url("https://s3-us-west-2.amazonaws.com/krista-anne/krista_anne_headshot_blue.jpg") no-repeat center center;
+  background-size: cover;
+  align-self: flex-end;
+}
+
+#my-bio {
+  /*padding: 10px 20px 20px 10px;*/
+  width: 300px;
+  height: 300px;
+  align-self: flex-end;
+}
+
+
+
+
 
    /*  -webkit-animation-name: Floatingx;
     -webkit-animation-duration: 3s;
