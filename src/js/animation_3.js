@@ -10,7 +10,7 @@ var sketch3 = function(p){
 	}
 
   	p.draw = function() {
-  		p.background(176, 176, 176)
+  		p.background(176, 176, 176);
   		var seconds = p.millis()/1000;
   		var change = p.map(p.sin(seconds / 10), -1, 1, 0, 30);
 
